@@ -134,6 +134,9 @@ header{
     padding: 6%;
     color: #dddddd;
 }
+footer{
+    text-align: center;
+}
 @media (max-width: 768px) {
     #ideas{
         /* padding-top: 6.3%; */
