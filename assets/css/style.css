@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 header img{
-    width: 3.96%;
+    width: 3.15%;
     margin: 2.7% 0 0 2.7%;
     position: fixed;
     
@@ -14,7 +14,219 @@ header img{
 header h1{
     padding: 2.7% 0 0 6.6%;
 }
-header p{
-    padding: 0% 0 0 7.2%;
-    margin-top: -1.8%;
+header p:not(#title p){
+    padding: 0;
+    padding-left: 7.2%;
+    margin-top: -0.9%;
+    margin-left: 0;
+}
+header{
+    position: relative;
+}
+#anima img{
+    position: absolute;
+    width: 54%;
+    top:0%;
+    right:0%;
+}
+#title{
+    padding: 9% 54% 0 9%; 
+}
+#title h2{
+    font-size: 4.5rem;
+}
+#title p{
+    margin-top: 9%;
+    padding-left: 0;
+    margin-left: 0%;
+}
+#title h3{
+    margin-top: 27%;
+    color: #ff3571;
+}
+#images img{
+    margin-top: 9.9%;
+    width: 100%;
+}
+#idea{
+    margin-top: 6.3%;
+    margin-left: 9.3%;
+    display: flex;
+}
+#idea #left{
+    padding: 1% 0 3% 3%;
+    position: relative;
+    width: 36%;
+}
+#idea #left h4{
+    font-size: 4.5rem;
+}
+#idea #left img{
+    position: absolute;
+    top:0%;
+    right:5.4%;
+}
+#idea #right{
+    padding-top: 0.9%;
+    width: 100%;
+}
+#idea #right p{
+    padding: 1.8% 0% 0% 9%;
+    width: 63%;
+}
+#lot h4{
+    font-size: 4.5rem;
+    padding: 1% 36% 3% 3%;
+    margin-left: 9.3%;
+}
+#ideas{
+    /* padding-top: 6.3%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+#ideas img{
+    position: absolute;
+    width: 1.8rem;
+    left: -3.6%;
+}
+#ideas h4, p{
+    padding-left: 9%;
+    padding: 1%;
+}
+#ideas div{
+    margin-top: 9%;
+    position: relative;
+    margin-left: 18.6%;
+    width: 39vw;
+}
+#ready{
+    margin-top: 6.3%;
+    width: 100vw;
+    text-align: center;
+}
+#ready h5{
+    font-size: 4.5rem;
+}
+#ready p{
+    text-align: center;
+    margin-top:3.6%;
+}
+#spaceMan{
+    width: 100vw;
+    margin-top:9%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+}
+#spaceMan img{
+    width: 45vw;
+}
+#spaceMan div img{
+    width: 3.6rem;
+}
+#spaceMan div{
+    width: 45%;
+    padding: 9%;
+}
+#spaceMan h3{
+    font-size: 3.6rem;
+    padding: 6%;
+    color: #dddddd;
+}
+@media (max-width: 768px) {
+    #ideas{
+        /* padding-top: 6.3%; */
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    #ideas img{
+        position: absolute;
+        width: 1.8rem;
+        left: 5.4%;
+    }
+    #ideas h4, p{
+        text-align: center;
+        /* margin-left: 9%; */
+    }
+    #ideas div{
+        width: 63%;
+        text-align: center;
+    }
+    #spaceMan{
+        grid-template-columns: 1fr;
+    }
+    #spaceMan img{
+        width: 100vw;
+    }
+    #spaceMan div img{
+        width: 3.6rem;
+    }
+    #spaceMan div{
+        width: 100%;
+        padding: 27%;
+    }
+    #spaceMan h3{
+        font-size: 3.6rem;
+        padding: 3%;
+        color: #dddddd;
+    }
+    #spaceMan h4, p{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+@media (max-width: 425px) {
+    header h1{
+        padding: 2.7% 0 0 6.6%;
+        font-size: 1rem;
+    }
+    header p:not(#title p){
+text-align: left;
+    }
+    #ideas{
+        /* padding-top: 6.3%; */
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #ideas img{
+        position: absolute;
+        width: 1.26rem;
+        left: 0%;
+
+    }
+    #ideas h4, p{
+        padding: 0%;
+    }
+    #ideas div{
+        text-align: center;
+        width: 63%;
+    }
+    #spaceMan{
+        grid-template-columns: 1fr;
+    }
+    #spaceMan img{
+        width: 100vw;
+    }
+    #spaceMan div img{
+        width: 3.6rem;
+    }
+    #spaceMan div{
+        width: 100%;
+        padding: 27%;
+    }
+    #spaceMan h3{
+        font-size: 3.6rem;
+        padding: 3%;
+        color: #dddddd;
+    }
+    #spaceMan h4, p{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
 }
